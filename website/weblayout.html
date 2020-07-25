@@ -1,0 +1,116 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title> website layout with my gallery </title>
+<style>
+	{
+		box-sizing:border-box;
+	}
+body{
+	margin:0;
+	background:gray;
+}
+nav{
+	background:#594848;
+	width:80%;
+	overflow:auto;
+
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li{
+	float:left;
+}
+nav a{
+	width:120px;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	background:#594848;
+	font-size:17px;
+	color:white;
+	padding:20px 10px;
+	font-family:Arial;
+}
+nav a:hover{
+	background:pink;
+	color:black;
+}
+.container{
+	max-width:1900px;
+	margin:auto;
+	background:#f2f2f2;
+	overflow:auto;
+}
+.gallery{
+	margin:5px;
+	border 1px solid #ccc;
+	float:left;
+	width:390px;
+}
+.gallery img{
+	width: 100%;
+	height:auto;
+	}
+	.desc{
+		padding:15px;
+		text-align:center;
+	}
+
+footer{
+	padding:10px;
+	font-size:17px;
+	font-weight:bold;
+	text-align:center;
+	background:#594848;
+	color:white;
+	font-family:Arial;
+
+}
+
+</style>
+</head>
+<body>
+<nav>
+   <ul>
+       <li><a href ="#"> Home</a></li>
+       <li><a href ="#"> Download</a></li>
+       <li><a href ="#"> news</a></li>
+       <li><a href ="#"> Gallery</a></li>
+       <li><a href ="#"> Contact</a></li>
+       <li><a href ="about.html" target="_new">About US</a></li>
+    </ul>
+</nav>
+<div class ="container">
+	<div class ="gallery">
+		  <p><a href=""><img src ="BeautyPlus_20191218175419100_save.jpg" download> download this image</a></p>
+		    <div class ="desc"> In a world full of trends sometimes a girl just wants to wear something classy</div>
+	</div>
+
+
+<div class ="container">
+	<div class ="gallery">
+		<img src ="BeautyPlus_20191215230529874_save.jpg">
+		    <div class ="desc"> six yards of pure grace</div>
+	</div>
+<div class ="container">
+	<div class ="gallery">
+		<img src ="BeautyPlus_20191215230432956_save.jpg">
+		    <div class ="desc"> Tradition is the illusion of performance</div>
+	</div>
+<div class ="container">
+	<div class ="gallery">
+		<img src ="BeautyPlus_20191215225854925_save.jpg">
+		    <div class ="desc"> looking stunning in my ethnic wear</div>
+	</div>
+	</div>
+
+</div>	
+<footer>
+all Right Reserved Web master 
+</footer>	    
+</body>
+</html>
